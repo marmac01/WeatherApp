@@ -16,4 +16,5 @@ public class MainActivity extends AppCompatActivity {
 HourForecast hf = new HourForecast();
 hf.setTemperature(32.4);
 TextView tv = findViewById(R.id.tv_message);
-tv.setText(String.valueOf(hf.getTemperature()));
+String text = getString(R.string.str_tv_message, hf.getTemperature());
+tv.setText(text);

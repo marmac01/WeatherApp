@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WeatherApp</string>
 </resources>
+
+<string name="str_tv_message">%1$d Celsius</string>
