@@ -1,3 +1,5 @@
+package com.example.weatherapp;
+
 public class HourForecast {
     private double temperature;
 
